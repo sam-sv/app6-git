@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/aqui.jpg','imagenes/pueblo de atlixco.jpg','imagenes/viva.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Historia de Mexico</h1>
+<h2> Batalla 5 de Mayo </h2>
+ </div> <br>
+<center> <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/batalla.jpg" alt="batalla" title="batalla" id="wows1_0"/></li>
+		<li><img src="data1/images/banderas.jpg" alt="banderas" title="banderas" id="wows1_1"/></li>
+		<li><img src="data1/images/consecu.png" alt="consecu" title="consecu" id="wows1_2"/></li>
+		<li><img src="data1/images/fuerte.jpg" alt="fuerte" title="fuerte" id="wows1_3"/></li>
+		<li><img src="data1/images/logo.png" alt="logo" title="logo" id="wows1_4"/></li>
+		<li><img src="data1/images/mensaje.jpg" alt="mensaje" title="mensaje" id="wows1_5"/></li>
+		<li><img src="data1/images/por.jpg" alt="por" title="por" id="wows1_6"/></li>
+		<li><img src="data1/images/pueblo_de_atlixco.jpg" alt="pueblo de atlixco" title="pueblo de atlixco" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/soledad.jpg" alt="jquery slideshow" title="soledad" id="wows1_8"/></a></li>
+		<li><img src="data1/images/viva.jpg" alt="viva" title="viva" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="batalla"><span><img src="data1/tooltips/batalla.jpg" alt="batalla"/>1</span></a>
+		<a href="#" title="banderas"><span><img src="data1/tooltips/banderas.jpg" alt="banderas"/>2</span></a>
+		<a href="#" title="consecu"><span><img src="data1/tooltips/consecu.png" alt="consecu"/>3</span></a>
+		<a href="#" title="fuerte"><span><img src="data1/tooltips/fuerte.jpg" alt="fuerte"/>4</span></a>
+		<a href="#" title="logo"><span><img src="data1/tooltips/logo.png" alt="logo"/>5</span></a>
+		<a href="#" title="mensaje"><span><img src="data1/tooltips/mensaje.jpg" alt="mensaje"/>6</span></a>
+		<a href="#" title="por"><span><img src="data1/tooltips/por.jpg" alt="por"/>7</span></a>
+		<a href="#" title="pueblo de atlixco"><span><img src="data1/tooltips/pueblo_de_atlixco.jpg" alt="pueblo de atlixco"/>8</span></a>
+		<a href="#" title="soledad"><span><img src="data1/tooltips/soledad.jpg" alt="soledad"/>9</span></a>
+		<a href="#" title="viva"><span><img src="data1/tooltips/viva.jpg" alt="viva"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ 
+<div data-role="main" class="ui-content"> </div>
+  <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2> Incio del Conflicto </h2>
+          <p> ¿Sabes como inicio esta batalla?... </p>
+        </a>
+       </li>
+<br>
+<li class="ui-first-child ui-last-child">
+       <a href ="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Batalla del 4 de Mayo </h2>
+        <p> ¿Sabes hacerca de este enfrentamiento?... </p>
+       </a>
+       </li>
+<br>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Batalla 5 de Mayo </h2>
+        <p> ¿Que paso?...</p>
+       </a>
+       </li>
+<br>
+<li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Museos </h2>
+         <p> ¿Que museos existen de esta fecha?... </p>
+       </a>
+       </li>
+<br>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Heroes de la batalla </h2>
+           <p> Biografias </p>
+       </a>
+       </li>
+      </ul>
+</div>
+ <br> <br> <br>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+<img src="imagenes/logo.png" whidth="46" height="46">
+   </div>
+   <div>
+    <h4>APLICACION SEIS</h4>
+     <h4> Samantha Solis Villegas </h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Inicio del Conflicto </h1>
+   </div> 
+  <br>
+    <div data-role="content" align="center">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/pueblo de atlixco.jpg',1)"><img src="imagenes/banderas.jpg" width="350" height="246" id="Image35"></a>
+<div> <br>
+  En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México para reclamar sus derechos como acreedores por una deuda que ascendía a alrededor de 80 millones de pesos, de los que aproximadamente 69 millones corresponderían a Inglaterra, 9 millones a España y 2 millones a Francia.<br>
+Poco después de reunirse, los representantes de los tres países enviaron un ultimátum al gobierno mexicano en el que pedían el pago de sus deudas; de lo contrario, invadiría el país. Juárez, quien gobernaba a un país que apenas empezaba a levantarse de la postración económica, respondió con un exhorto a lograr un arreglo amistoso, y los invitó a una conferencia. Acompañó ese mensaje con la derogación del decreto que suspendió los pagos. Al mismo tiempo, en vista de la posibilidad real de una invasión militar que buscara llegar hasta la Ciudad de México, ordenó el traslado de pertrechos y la fortificación de Puebla, así como crear una unidad, a la que se designó como Ejército de Oriente, que fue puesta bajo el mando del general [José López Uraga]. En vista del desempeño deficiente de este mando, fue destituido y en su lugar se designó a Zaragoza, quien dejó el Ministerio de Guerra y se dirigió a Puebla para organizar la oposición al avance francés con cerca de 10 000 hombres; cantidad mínima si se toma en cuenta el vasto territorio que debía cubrirse.<br>
+ Los representantes aceptaron el llamado y en febrero de 1862 se reunieron con los ministros juaristas del Exterior, Manuel Doblado, y de Guerra, Ignacio Zaragoza, en la hacienda de La Soledad, cerca de Veracruz. Gracias a la habilidad como negociador de Doblado se firmaron los Tratados preliminares de La Soledad, en los que se obtuvo el reconocimiento como interlocutor para el gobierno de Juárez y se garantizó el respeto a la integridad e independencia del país. <br> <br> <br>
+      
+     <div data-role="collapsible" data-content-theme="false">
+       <h1> Tratados preliminares de La Soledad </h1>
+Los Tratados preliminares de La Soledad fueron una serie de convenios firmados en la población mexicana de La Soledad, en el estado de Veracruz el 19 de febrero de 1862, entre el ministro de Relaciones Exteriores de México, Manuel Doblado y el representante de la Alianza Tripartita, Juan Prim. <br>
+La Alianza Tripartita, formada por Inglaterra, Francia y España, se había firmado en Londres, el 31 de octubre de 1861, una moratoria de pagos contra la República Mexicana en la denominada Convención de Londres. A principios de diciembre de ese mismo año, las potencias aliadas se instalaron en las localidades mexicanas de Orizaba y Xalapa, para invadir el país. Manuel Doblado, ministro de Relaciones Exteriores del gobierno mexicano, logró hacer que Juan Prim, representante español, y lord John Russell por Inglaterra se retiraran. Pero Dubois de Saligny por Francia, avanzó hasta Puebla con fuerzas dispuestas a conquistar el país. Así comenzó la Intervención Francesa.
+<br> <br>
+<img src="imagenes/tratados.JPG" width="358" height="535">
+<br>
+</div>
+<img src="imagenes/soledad.jpg" width="250" height="255">
+<br> <br> <br>
+   </div>
+     </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicacion Seis, SVS</h4>
+         </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Batalla del 4 de Mayo </h1>
+</div>
+<div data-role="content" align="center">
+<img src="imagenes/pueblo de atlixco.jpg" width="500" height="300"><br> <br>
+<div>
+  <div data-role="collapsible" data-content-theme="false">
+    <h1> ¿Que fue ?...  </h1>
+   <br> La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México. <br>
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla. <br> <br>
+  <img src="imagenes/atlixco.jpg" width="300" height="142">
+    </div>
+      <br> <br>
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Atlixco </h1>
+   <br> Heroica Atlixco también conocido como «Atlixco de las flores», es un municipio que se localiza al suroeste de la Ciudad de Puebla. Recibió su título de «Heroica»9 debido a la Batalla del 4 de mayo de 1862 que precedería a la Batalla de Puebla del 5 de mayo de 1862. <br> <br>
+      <img src="imagenes/loca.png" width="350" height="250">
+      </div>
+</div>
+</div>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4> Aplicacion Seis, SVS </h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Batalla 5 de Mayo </h1>
+</div>
+<br>
+<div data-role="content" align="top">
+<div> 
+<center>
+Asegurado el paso de Acultzingo, el 2 de mayo de 1862 la columna principal del ejército expedicionario francés salió de San Agustín del Palmar, en Veracruz, para cruzar la Sierra Madre Oriental y dirigirse hacia Puebla, paso obligado para llegar a la capital del país y que era además uno de los bastiones del Partido Conservador, donde esperaban ser recibidos "con una lluvia de rosas", como le aseguró Saligny a Napoleón III en una carta.4 El 3 de mayo por la noche, el general Zaragoza arribó a Puebla, dejando en su retaguardia una brigada de caballería para hostigar a los invasores. Los efectivos del Ejército de Oriente se organizaron por las calles desiertas de la ciudad, ya que la mayoría de la población era partidaria de la invasión. <br> <br>
+Zaragoza estableció su cuartel a unos cuantos metros de la línea de batalla, donde estableció el plan para la defensa de la plaza (ver tabla superior), que consistió en concentrar los pertrechos en el sur y oriente de la ciudad, esperando evitar que los franceses alcanzaran al área urbana de Puebla. <br> <br> 
+El 4 de mayo, los exploradores mexicanos volvieron con noticias de que una columna de conservadores a caballo, al mando de Leonardo Márquez y José María Cobos, marchaba por la zona de Atlixco para unirse con las fuerzas de Lorencez en el ataque a Puebla. Zaragoza envió una brigada de 2000 hombres bajo el mando de Tomás O'Horán y Antonio Carbajal, con el fin de detenerlo, lo cual lograron. Aunque sus fuerzas habían disminuido, los mexicanos se prepararon para la defensa de Puebla. Contaban con dos baterías de artillería de batalla y dos de montaña, cubriendo los fuertes con 1200 hombres y formando a otros 3500 en cuatro columnas de infantería con una batería de batalla y una brigada de caballería por el lado del camino a Amozoc. <br> <br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/viva.jpg',1)"><img src="imagenes/por.jpg" width="700" height="496" id="Image36"></a><br> <br> 
+
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Estrategia  </h1>
+   <br> El ala derecha mexicana la cubrían las tropas de Oaxaca dirigidas por Porfirio Díaz. El centro de la línea lo ocuparon Felipe Berriozábal y Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los Fuertes de Loreto y Guadalupe, con el general Miguel Negrete a la cabeza de la Segunda División de Infantería. La artillería sobrante la colocaron en los fortines y reductos dentro de Puebla, quedando al mando del general Santiago Tapia. <br> <br>
+  <img src="imagenes/mapa.png" width="371" height="286">
+      </div>
+</div>
+<br> <br>
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Concecuencias </h1>
+   <br> El saldo final de la batalla fue de 476 muertos y 345 heridos del lado francés, así como 83 muertos, cerca de 131 heridos y 12 desaparecidos para el Ejército de Oriente. A las 7 de la noche del día 6 de mayo arribaron a Puebla el general Antillón y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero éste, el día 8 de mayo, dispuso la retirada hasta San Agustín del Palmar, siendo "saludado" por la artillería republicana y la Banda de Guerra de los Carabineros, quienes tocaron "Escape". <br> <br>
+  <center><img src="imagenes/consecu.png" width="725" height="404">
+      </div>    
+      <br> <br> <br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Mas Informcaion </h1>
+   <br> Si deseas investigar hacerca de esta fecha historica te recomendamos las siguientes paginas: <br> <br> <br>
+   <div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button" id="beep">
+<h4> Festividades de Mexico </h4>
+</a>
+</li> <br>
+<li class="ui-first-child ui-last-child">
+<a href="http://www.udg.mx/es/efemerides/2017/05-mayo" data-role="button" id="vibrar">
+<h4> Aniversario de la batalla de Puebla </h4>
+</a>
+</li>
+</ul>
+</div>
+</div>   
+  
+      </div>      
+</div>
+<br> <br>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>APLICACION DOS,DMSA</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Museos </h1>
+</div> 
+ <br> <br> Algunos de los museos que existen hacerca de esta fecha tan imprtante son los siguientes:   <br> <br>
+<div data-role="content" align="center">
+<div>
+  <div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://puebla.travel/es/museos/item/museo-interactivo-de-la-batalla-del-5-de-mayo" data-role="button" id="beep">
+<h4> Museo Interactivo </h4>
+</a>
+</li>
+</ul>
+</div>
+</div> 
+<br> <br> El recorrido por el museo utiliza la tecnología más puntera para narrar las acciones militares y la biografía de héroes nacionales como Negrete, Díaz y Zaragoza. Pantallas táctiles, proyecciones en 3-D y contenidos interactivos descargables en dispositivos ofrecen una experiencia única al visitante. <br> <br>
+<center><img src="imagenes/museo1.jpg" width="170" height="170"> <br> <br> <br> <br> <br>
+
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://puebla.travel/es/museos/item/museo-de-sitio-fuerte-de-guadalupe" data-role="button" id="beep">
+<h4> Fuerte de Guadalupe </h4>
+</a>
+</li>
+</ul>
+</div>
+</div> 
+
+<br> <br>En él, se narra de manera interactiva la victoria del ejército mexicano sobre el ejército francés, considerado en este entonces como el mejor del mundo, asimismo, describe la historia del edificio, desde la ermita de San Cristóbal construida en el s. XVI, hasta su fortificación, que integraba la capilla de Guadalupe, el atrio y el fuerte.  <br> <br>
+<center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/mensaje.jpg',1)"><img src="imagenes/fuerte.jpg" width="300" height="175" id="Image16"></a>   </div>
+</div>
+ <br> <br>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>Aplicacion Seis, SVS </h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a" >
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> Biografias </h1>
+</div>
+<div data-role="content" align="top">
+<br> <br> <center> A continuacion te mostramos algunos de los personas mas importantes de la Batalla del 5 de Mayo, junto con un poco de su vida. <br> <br> <br>
+<div>
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Ignacio Zaragoza </h1>
+Famoso militar mexicano qiuen enfrentó las fuerzas francesas de Napoleón III en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862. Zaragoza comprendióla posición defensiva y favorable que tenía la ciudad de Puebla, paso obligado para ir a la Ciudad de México, y con un ejército más pequeño y menos equipado que los franceses, logró dar una batalla excepcional desde los cerros de Loreto y Guadalupe el 5 de mayo de 1862. <br> <br>
+<img src="imagenes/zaragoza.jpg" width="340" height="299" id="Image35">
+</div>
+<br> <br> <br>
+
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Porfirio Diaz </h1>
+    Militar y político mexicano, Porfirio Díaz ingresó en el ejército, y su carrera militar fue meteórica. En la guerra de Reforma (1858-1861), conflicto civil en el que se enfrentaron conservadores y liberales, apoyó la causa liberal. La guerra concluyó con la victoria de los liberales y llevó a la presidencia a Benito Juárez (1861); finalizada la contienda, Porfirio Díaz fue ascendido a general y elegido diputado. Apenas un año más tarde tomó de nuevo las armas contra la invasión francesa (1862-1863) y la coronación de Maximiliano I (1864-1867) como emperador de México. Fue jefe de brigada en Acultzingo en abril de 1862 y ese mismo año participó en la batalla de Cinco de Mayo al lado de Ignacio Zaragoza. El prestigio y popularidad ganados en sus últimas campañas lo dejó en situación de optar a la presidencia, pero el Congreso prefirió a Benito Juárez en 1867. <br> <br>
+    <img src="imagenes/diaz.JPG" width="258" height="223">
+</div>
+
+<br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Felipe Berriazábal </h1>
+Felipe Berriozábal Militar e ingeniero, nació en Zacatecas. Fue gobernador de los estados de México, Michoacán y San Luis Potosí. Como militar llegó a General y fue ministro de Guerra y Marina. Participó en la Guerra de Reforma y contra la Intervención Francesa. En la batalla del 5 de mayo en Puebla, actuó bajo las órdenes del general Ignacio Zaragoza , aseguró el triunfo de los mexicanos al dar alcance con la caballería.  En 1863, fue hecho prisionero por los franceses, logró fugarse uniéndose al presidente Benito Juárez, quien lo designó en 1865 como Ministro de la Guerra. <br><br>
+    <img src="imagenes/felipe.jpg" width="290" height="251">
+</div>
+</div>
+
+<br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+   <h1> Miguel Negrete </h1>
+Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México, Negrete reacciona y se pone de parte del bando liberal con su célebre frase “Yo tengo Patria antes que Partido”.Unido al ejército republicano y a las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser considerado como el segundo héroe de dicha batalla al defender el Fuerte de Loreto. <br><br>
+    <img src="imagenes/mi.jpg" width="290" height="251">
+</div>
+
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>Apicacion Seis, SVS </h4>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
